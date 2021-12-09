@@ -98,20 +98,7 @@ int main ( int argc, char *argv[] )
 			if( ioctl( fd, (unsigned int) IOCTL_CURSOR_OFF, &msg) < 0)
 				perror("[ERROR] IOCTL_CURSOR_OFF \n");
 			break;
-
-		// Write call Tests
-		/* #### Test cases used for write mode robustness checking. Passed Test cases */
-		/*
-		case (WRITE_TEST_MODE1 ):
-			write(fd, msg.kbuf, sizeof(char) * MAX_BUF_LENGTH );
-			break;
-		case (WRITE_TEST_MODE2 ):
-			write(fd, NULL, sizeof(char) * MAX_BUF_LENGTH );
-			break;
-		case (WRITE_TEST_MODE3 ):
-			write(fd, "ABCDEFG", 0 );
-			break;
-		*/		
+		
 
 		default:
 			printf("[User level Debug] klcd Driver (ioctl): No such command \n");
