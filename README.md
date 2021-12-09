@@ -33,3 +33,6 @@ The pin description of the 16×2 LCD Display Module is shown in the following ta
 * Then insert the kernel moodule klcd.ko using "**sudo insmod klcd.ko**".
 * Change the permissions of the file using "**sudo chmod 666 /dev/klcd**"
 * Then type whatever message you want to display on your lcd using "**echo "YOUR MESSAGE" >/dev/klcd**"
+
+2)User level program Usage:
+* 
