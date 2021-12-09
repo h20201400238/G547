@@ -32,7 +32,8 @@ The pin description of the 16×2 LCD Display Module is shown in the following ta
 * Change the directory to the downloaded folder(lcd_4bit) and run "**sudo make all**" command to build the program.
 * Then insert the kernel moodule klcd.ko using "**sudo insmod klcd.ko**".
 * Change the permissions of the file using "**sudo chmod 666 /dev/klcd**"
-* Then type whatever message you want to display on your lcd using "**echo "YOUR MESSAGE" >/dev/klcd**"
+* Then type whatever message you want to display on your lcd using "**echo "YOUR MESSAGE">/dev/klcd**"
 
 2)User level program Usage:
-* 
+* Compile the user level program inside the user level program directory(folder) using **gcc driver.c -o driver.o**.
+* Next run the object file with **./driver.o**
