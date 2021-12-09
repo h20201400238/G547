@@ -37,3 +37,4 @@ The pin description of the 16×2 LCD Display Module is shown in the following ta
 2)User level program Usage:
 * Compile the user level program inside the user level program directory(folder) using **gcc driver.c -o driver.o**.
 * Next run the object file with **./driver.o**
+* And follow the commands described in the program.
