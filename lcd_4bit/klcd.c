@@ -705,7 +705,6 @@ module_exit( klcd_exit );
 
 MODULE_LICENSE("GPL");
 
-MODULE_AUTHOR(DRIVER_AUTHOR);
-MODULE_DESCRIPTION(DRIVER_DESC);
-MODULE_SUPPORTED_DEVICE("test device");
+MODULE_AUTHOR("Vaibhav & Ashutosh");
+MODULE_DESCRIPTION("LCD Device driver");
 
